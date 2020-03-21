@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> tab design -1</title>
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+    <div class="tabbed">
+        <input type="radio" name="tabs" id="tab-nav-1" checked>
+        <label for="tab-nav-1">HTML</label>
+
+        <input type="radio" name="tabs" id="tab-nav-2" checked>
+        <label for="tab-nav-2">CSS</label>
+
+        <input type="radio" name="tabs" id="tab-nav-3" checked>
+        <label for="tab-nav-3">PHOTOSHOP</label>
+
+        <input type="radio" name="tabs" id="tab-nav-4" checked>
+        <label for="tab-nav-1">ILLUSTRATOR</label>
+
+
+        <div class="tabs">
+
+            <div>
+                <h2>HTML</h2>
+
+                <p>Lorem ipsum dolor sit.ipsum dolor siamet consectetur adipisicing elit. Eligendi, ipsa tempora! Sunt culpa corporis natu
+                    s dignissimos, quod optio dolores nisi magnam officiis, accusantium, nam asperiores earum aperiam voluptatibus amet aliquam!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet neque perferendis sapiente nobis, officiis dolores
+                    hic odit nostrum ab aliquid labore, culpa porro provident laboriosam repellendus quam tempora natus! Quos totam error distinctio voluptas dicta.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo fuga cumque nobis laborum eveniet aperiam culpa distinctio natus in eaque?
+                </p>
+
+
+
+            </div>
+
+
+
+            <div>
+                <h2>CSS</h2>
+
+                <p>Lorem ipsum dolor sit.ipsum dolor siamet consectetur adipisicing elit. Eligendi, ipsa tempora! Sunt culpa corporis natu
+                    s dignissimos, quod optio dolores nisi magnam officiis, accusantium, nam asperiores earum aperiam voluptatibus amet aliquam!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet neque perferendis sapiente nobis, officiis dolores
+                    hic odit nostrum ab aliquid labore, culpa porro provident laboriosam repellendus quam tempora natus! Quos totam error distinctio voluptas dicta.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo fuga cumque nobis laborum eveniet aperiam culpa distinctio natus in eaque?
+                </p>
+
+
+                
+            </div>
+
+
+
+
+            <div>
+                <h2>PHOTOSHOP</h2>
+
+                <p>Lorem ipsum dolor sit.ipsum dolor siamet consectetur adipisicing elit. Eligendi, ipsa tempora! Sunt culpa corporis natu
+                    s dignissimos, quod optio dolores nisi magnam officiis, accusantium, nam asperiores earum aperiam voluptatibus amet aliquam!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet neque perferendis sapiente nobis, officiis dolores
+                    hic odit nostrum ab aliquid labore, culpa porro provident laboriosam repellendus quam tempora natus! Quos totam error distinctio voluptas dicta.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo fuga cumque nobis laborum eveniet aperiam culpa distinctio natus in eaque?
+                </p>
+
+
+                
+            </div>
+
+
+
+
+
+            <div>
+                <h2>ILLUSTRATOR</h2>
+
+                <p>Lorem ipsum dolor sit.ipsum dolor siamet consectetur adipisicing elit. Eligendi, ipsa tempora! Sunt culpa corporis natu
+                    s dignissimos, quod optio dolores nisi magnam officiis, accusantium, nam asperiores earum aperiam voluptatibus amet aliquam!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet neque perferendis sapiente nobis, officiis dolores
+                    hic odit nostrum ab aliquid labore, culpa porro provident laboriosam repellendus quam tempora natus! Quos totam error distinctio voluptas dicta.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo fuga cumque nobis laborum eveniet aperiam culpa distinctio natus in eaque?
+                </p>
+
+
+                
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    
+</body>
+
+</html>
