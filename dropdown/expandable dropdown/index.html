@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expanding dropdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mtree.css">
+    <style>
+
+        .mtree-demo .mtree
+        {
+            background: #eee;
+            margin:20px auto ;
+            max-width:320px ;
+            border-radius: 3px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <ul class="mtree transit">
+        <li><a href="">CSE</a>
+        <ul>
+            <li><a href="">sub-1</a></li>
+            <li><a href="">sub-2</a></li>
+            <li><a href="">sub-3</a></li>
+            <li><a href="">sub-4</a></li>
+            <li><a href="">sub-5</a></li>
+        </ul>
+    </li>
+    <li><a href="">IT</a>
+        <ul>
+            <li><a href="">sub-1</a></li>
+            <li><a href="">sub-2</a></li>
+            <li><a href="">sub-3</a></li>
+            <li><a href="">sub-4</a></li>
+            <li><a href="">sub-5</a></li>
+        </ul>
+    </li>
+
+
+    <li><a href="">ME</a>
+        <ul>
+            <li><a href="">sub-1</a></li>
+            <li><a href="">sub-2</a></li>
+            <li><a href="">sub-3</a></li>
+            <li><a href="">sub-4</a></li>
+            <li><a href="">sub-5</a></li>
+        </ul>
+    </li>
+
+    <li><a href="">EE</a>
+        <ul>
+            <li><a href="">sub-1</a></li>
+            <li><a href="">sub-2</a></li>
+            <li><a href="">sub-3</a></li>
+            <li><a href="">sub-4</a></li>
+            <li><a href="">sub-5</a></li>
+        </ul>
+    </li>
+
+    <li><a href="">ECE</a>
+        <ul>
+            <li><a href="">sub-1</a></li>
+            <li><a href="">sub-2</a></li>
+            <li><a href="">sub-3</a></li>
+            <li><a href="">sub-4</a></li>
+            <li><a href="">sub-5</a></li>
+        </ul>
+    </li>
+
+    <li><a href="">CV</a>
+        <ul>
+            <li><a href="">sub-1</a></li>
+            <li><a href="">sub-2</a></li>
+            <li><a href="">sub-3</a></li>
+            <li><a href="">sub-4</a></li>
+            <li><a href="">sub-5</a></li>
+        </ul>
+    </li>
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/0.2.1/jquery.velocity.min.js"></script>
+    <script src="mtree.js"></script>
+    <script>
+        $(document).ready(function(){
+            var mtree=$('ul.mtree');
+            mtree.wrap('<div class=mtree-demo></div>');
+            var skins=['bubba','skinny','transit','jet','nix'];
+            mtree.addClass(skins[0]);
+            s.find('.csl').on('click.mtree-close-same-level',function(){
+                $(this).toggleClass('active');
+
+            }) ;
+
+        });
+    </script>
+</body>
+</html>
